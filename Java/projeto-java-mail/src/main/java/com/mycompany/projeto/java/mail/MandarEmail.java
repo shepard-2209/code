@@ -11,9 +11,9 @@ import javax.activation.*;
 
 public class MandarEmail {
  public static void main(String [] args){
-      String to = "leonardo.gimenes@bandtec.com.br";//change accordingly
+      String to = "kar.farias26@gmail.com";//change accordingly
       String from = "it-gimenes@hotmail.com";//change accordingly
-      String host = "10.11.112.5";//or IP address
+      String host = "fe80::e85f:5403:fda6:6c6c%11";//or IP address
 
      //Get the session object
       Properties properties = System.getProperties();
@@ -26,7 +26,7 @@ public class MandarEmail {
          message.setFrom(new InternetAddress(from));
          message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));
          message.setSubject("Ping");
-         message.setText("Hello, this is example of sending email  ");
+         message.setText("KARINAAAAAAAAAAAAAAAAAAA");
 
          // Send message
          Transport.send(message);
