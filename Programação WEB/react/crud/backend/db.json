@@ -1,14 +1,9 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Arthur Oliveira",
-            "email": "aoliveira@coder.com.br"
-        },
-        {
-            "id": 2,
-            "name": "Maria Júlia da Silva",
-            "email": "mjds@empresa.com"
-        }
-    ]
+  "users": [
+    {
+      "name": "Ryan Braunaaaaaa",
+      "email": "ryan@corno.com",
+      "id": 4
+    }
+  ]
 }
